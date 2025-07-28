@@ -1511,6 +1511,14 @@ ul {
 }
 /*end footer*/
 /*start animation*/
+@keyframes up-and-down {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: -50px;
+  }
+}
 @keyframes bouncing {
   0%,
   10%,
